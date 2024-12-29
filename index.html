@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moses Barigo Website Design</title>
+
+    <!-- Link to external stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <section class="header">      
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html" class="highlighted">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="systems.html">SYSTEMS</a></li>
+                    <li><a href="project.html">PROJECTS</a></li>
+                    <li><a href="staffs.html">STAFF</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><img src="Images/logos.PNG" alt="Logo" class="logo-img"></li>
+                    <hr>
+                    <h4>Huonville Primary School<br>
+                        P.O.Box 209<br>
+                        Lae, Morobe province<br>
+                        Phone: 72xxxxxxxx<br>
+                        " Progress through Endeavour"
+                </h4>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <div class="text-box">
+            <br><br><br><br><br><br><br><br><br><br>
+            <h1><b>Huonville Primary School</b></h1>
+            <br>
+            <p>Progress Through Endeavour</p>
+            <br>
+            <a href="about.html" class="hero-btn">About Us</a>
+            <br><br><br>
+            <h5>www.Huonvilleprimaryschool.com.pg</h5><br><br>
+            <h6>Last update: 28/12/2024</h6>
+        </div>
+    </section>
+
+    <script>
+        // JavaScript for menu toggle functionality
+        function showMenu() {
+            document.getElementById("navLinks").style.right = "0";
+        }
+
+        function hideMenu() {
+            document.getElementById("navLinks").style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
